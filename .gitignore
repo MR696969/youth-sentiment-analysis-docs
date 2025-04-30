@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Database
+*.db
+*.sqlite3
+
+# Model files
+*.pt
+best_model.pt
+best_odia_model.pt
+final_model.pt
+models/best_model/
+models/final_model/
+*.safetensors
+
+# Data files
+data/
+*.csv
+runs/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+events.out.tfevents.* 
